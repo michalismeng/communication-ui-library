@@ -7,6 +7,7 @@ export * from './ChatComposite';
 export * from './CallComposite';
 export * from './CallWithChatComposite';
 export { COMPOSITE_LOCALE_EN_GB } from './localization/locales/en-GB/CompositeLocale';
+export { COMPOSITE_LOCALE_EL_GR } from './localization/locales/el-GR/CompositeLocale';
 export { COMPOSITE_LOCALE_AR_SA } from './localization/locales/ar-SA/CompositeLocale';
 export { COMPOSITE_LOCALE_CS_CZ } from './localization/locales/cs-CZ/CompositeLocale';
 export { COMPOSITE_LOCALE_DE_DE } from './localization/locales/de-DE/CompositeLocale';

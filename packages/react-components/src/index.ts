@@ -13,6 +13,7 @@ export { COMPONENT_LOCALE_DE_DE } from './localization/locales/de-DE/ComponentLo
 export { COMPONENT_LOCALE_ES_ES } from './localization/locales/es-ES/ComponentLocale';
 export { COMPONENT_LOCALE_FI_FI } from './localization/locales/fi-FI/ComponentLocale';
 export { COMPONENT_LOCALE_FR_FR } from './localization/locales/fr-FR/ComponentLocale';
+export { COMPONENT_LOCALE_EL_GR } from './localization/locales/el-GR/ComponentLocale';
 export { COMPONENT_LOCALE_HE_IL } from './localization/locales/he-IL/ComponentLocale';
 export { COMPONENT_LOCALE_IT_IT } from './localization/locales/it-IT/ComponentLocale';
 export { COMPONENT_LOCALE_JA_JP } from './localization/locales/ja-JP/ComponentLocale';

@@ -1,0 +1,345 @@
+{
+  "participantItem": {
+    "isMeText": "(εσείς)",
+    "menuTitle": "Περισσότερες Επιλογές",
+    "removeButtonLabel": "Αφαίρεση",
+    "sharingIconLabel": "Κοινή χρήση",
+    "mutedIconLabel": "Σίγαση",
+    "displayNamePlaceholder": "Ανώνυμος συμμετέχον",
+    "participantStateRinging": "Κλήση...",
+    "participantStateHold": "Σε αναμονή"
+  },
+  "ParticipantList": {
+    "overflowParticipantCount": "+{overflowCount} περισσότεροι"
+  },
+  "typingIndicator": {
+    "singleUser": "{user} γράφει...",
+    "multipleUsers": "{users} γράφουν...",
+    "multipleUsersAbbreviateOne": "{users} και 1 άλλος γράφουν...",
+    "multipleUsersAbbreviateMany": "{users} και {numOthers} άλλοι γράφουν...",
+    "delimiter": ", "
+  },
+  "sendBox": {
+    "placeholderText": "Εισάγετε ένα μήνυμα",
+    "textTooLong": "Το μήνυμά σας είναι πάνω από το μέγιστο όριο.",
+    "sendButtonAriaLabel": "Αποστολή μηνύματος",
+    "fileUploadsPendingError": "Μεταφόρτωση... Παρακαλώ περιμένετε.",
+    "removeFile": "Αφαίρεση αρχείου",
+    "uploading": "Μεταφόρτωση",
+    "uploadCompleted": "Ολοκληρώθηκε η μεταφόρτωση"
+  },
+  "mentionPopover": {
+    "mentionPopoverHeader": "Προτάσεις"
+  },
+  "imageGallery": {
+    "downloadButtonLabel": "Λήψη",
+    "dismissButtonAriaLabel": "Κλείσιμο"
+  },
+  "messageStatusIndicator": {
+    "deliveredAriaLabel": "Το μήνυμα εστάλη",
+    "deliveredTooltipText": "Εστάλη",
+    "seenAriaLabel": "Διαβάστηκε από όλους",
+    "seenTooltipText": "Διαβάστηλε",
+    "readByTooltipText": "Διαβάστηκε από {messageThreadReadCount} από {remoteParticipantsCount}",
+    "sendingAriaLabel": "Αποστολή μηνύματος",
+    "sendingTooltipText": "Αποστολή",
+    "failedToSendAriaLabel": "Αποτυχία αποστολής μηνύματος",
+    "failedToSendTooltipText": "Αποτυχία αποστολής"
+  },
+  "endCallButton": {
+    "label": "Αποχώρηση",
+    "tooltipContent": "Αποχώρηση από την κλήση"
+  },
+  "cameraButton": {
+    "onLabel": "Κάμερα",
+    "offLabel": "Κάμερα",
+    "tooltipDisabledContent": "Η κάμερα είναι απενεργοποιημένη",
+    "tooltipOnContent": "Απενεργοποίηση κάμερας",
+    "tooltipOffContent": "Ενεργοποίηση κάμερας",
+    "tooltipVideoLoadingContent": "Το βίντεο φορτώνει",
+    "cameraMenuTitle": "Κάμερα",
+    "cameraMenuTooltip": "Επιλέξτε κάμερα",
+    "cameraButtonSplitRoleDescription": "Κουμπί διαίρεσης",
+    "onSplitButtonAriaLabel": "Απενεργοποίηση κάμερας και επιλογές κάμερας",
+    "offSplitButtonAriaLabel": "Ενεργοποίηση κάμερας και επιλογές κάμερας",
+    "cameraActionTurnedOnAnnouncement": "Η κάμερά σας έχει ενεργοποιηθεί",
+    "cameraActionTurnedOffAnnouncement": "Η κάμερά σας έχει απενεργοποιηθεί",
+    "onSplitButtonPrimaryActionCamera": "Απενεργοποίηση κάμερας",
+    "offSplitButtonPrimaryActionCamera": "Ενεργοποίηση κάμερας",
+    "cameraPrimaryActionSplitButtonTitle": "Χρήση κάμερας",
+    "videoEffectsMenuItemTitle": "Εφέ"
+  },
+  "microphoneButton": {
+    "onLabel": "Μικρόφωνο",
+    "offLabel": "Μικρόφωνο",
+    "tooltipDisabledContent": "Το μικρόφωνο είναι απενεργοποιημένο",
+    "tooltipOnContent": "Σίγαση μικροφώνου",
+    "tooltipOffContent": "Κατάργηση σίγασης μικροφώνου",
+    "microphoneMenuTitle": "Μικρόφωνο",
+    "microphoneMenuTooltip": "Επιλέξτε μικρόφωνο",
+    "speakerMenuTitle": "Ηχείο",
+    "speakerMenuTooltip": "Επιλέξτε ηχείο",
+    "microphoneButtonSplitRoleDescription": "Κουμπί διαίρεσης",
+    "onSplitButtonAriaLabel": "Σίγαση μικροφώνου και επιλογές ήχου",
+    "offSplitButtonAriaLabel": "Κατάργηση σίγασης μικροφώνου και επιλογές ήχου",
+    "microphoneActionTurnedOnAnnouncement": "Το μικρόφωνό σας έχει ενεργοποιηθεί",
+    "microphoneActionTurnedOffAnnouncement": "Το μικρόφωνό σας έχει απενεργοποιηθεί",
+    "offSplitButtonMicrophonePrimaryAction": "Κατάργηση σίγασης μικροφώνου",
+    "onSplitButtonMicrophonePrimaryAction": "Σίγαση μικροφώνου",
+    "microphonePrimaryActionSplitButtonTitle": "Χρήση μικροφώνου"
+  },
+  "devicesButton": {
+    "label": "Συσκευές",
+    "tooltipContent": "Διαχείριση συσκευών",
+    "cameraMenuTitle": "Κάμερα",
+    "cameraMenuTooltip": "Επιλέξτε κάμερα",
+    "audioDeviceMenuTitle": "Συσκευή ήχου",
+    "audioDeviceMenuTooltip": "Επιλέξτε συσκευή ήχου",
+    "microphoneMenuTitle": "Μικρόφωνο",
+    "microphoneMenuTooltip": "Επιλέξτε μικρόφωνο",
+    "speakerMenuTitle": "Ηχείο",
+    "speakerMenuTooltip": "Επιλέξτε ηχείο"
+  },
+  "participantsButton": {
+    "label": "Συμμετέχοντες",
+    "tooltipContent": "Εμφάνιση συμμετεχόντων",
+    "menuHeader": "Σε αυτήν την κλήση",
+    "participantsListButtonLabel": "{numParticipants} συμμετέχοντες",
+    "muteAllButtonLabel": "Σίγαση όλων",
+    "copyInviteLinkButtonLabel": "Αντιγραφή συνδέσμου πρόσκλησης",
+    "copyInviteLinkActionedAriaLabel": "Ο σύνδεσμος πρόσκλησης αντιγράφηκε"
+  },
+  "screenShareButton": {
+    "onLabel": "Διακοπή παρουσίασης",
+    "offLabel": "Παρουσίαση",
+    "tooltipDisabledContent": "Η παρουσίαση είναι απενεργοποιημένη",
+    "tooltipOnContent": "Η οθόνη σας παρουσιάζεται",
+    "tooltipOffContent": "Παρουσίαση της οθόνης σας"
+  },
+  "raiseHandButton": {
+    "offLabel": "Υψώστε το χέρι",
+    "onLabel": "Κατεβάστε το χέρι",
+    "tooltipDisabledContent": "Η ενέργεια 'Υψώστε το χέρι' είναι απενεργοποιημένη",
+    "tooltipOnContent": "Κατεβάστε το χέρι",
+    "tooltipOffContent": "Υψώστε το χέρι"
+  },
+  "messageThread": {
+    "yesterday": "Χθες",
+    "sunday": "Κυριακή",
+    "monday": "Δευτέρα",
+    "tuesday": "Τρίτη",
+    "wednesday": "Τετάρτη",
+    "thursday": "Πέμπτη",
+    "friday": "Παρασκευή",
+    "saturday": "Σάββατο",
+    "participantJoined": "εισήλθε στη συνομιλία.",
+    "participantLeft": "αποχώρησε από τη συνομιλία.",
+    "editMessage": "Επεξεργασία",
+    "removeMessage": "Διαγραφή",
+    "resendMessage": "Δοκιμάστε να το στείλετε ξανά",
+    "failToSendTag": "Αποτυχία αποστολής",
+    "editedTag": "Επεξεργασμένο",
+    "liveAuthorIntro": "{author} λέει",
+    "messageContentAriaText": "{author} είπε {message}",
+    "messageContentMineAriaText": "Είπατε {message}",
+    "editBoxTextLimit": "Το μήνυμά σας είναι πάνω από το όριο των {limitNumber} χαρακτήρων",
+    "editBoxPlaceholderText": "Επεξεργασία του μηνύματός σας",
+    "newMessagesIndicator": "Νέα μηνύματα",
+    "noDisplayNameSub": "Χωρίς όνομα",
+    "editBoxCancelButton": "Ακύρωση",
+    "editBoxSubmitButton": "Υποβολή",
+    "messageReadCount": "Διαβάστηκε από {messageReadByCount} από {remoteParticipantsCount}",
+    "actionMenuMoreOptions": "Περισσότερες επιλογές",
+    "downloadFile": "Λήψη αρχείου",
+    "blockedWarningText": "Αυτό το μήνυμα διαγράφηκε λόγω εταιρικής πολιτικής.",
+    "blockedWarningLinkText": "Λεπτομέρειες",
+    "fileCardGroupMessage": "Το μήνυμα περιλαμβάνει {fileCount} συνημένα"
+  },
+  "errorBar": {
+    "unableToReachChatService": "Είστε εκτός σύνδεσης",
+    "accessDenied": "Αδυναμία πρόσβασης στις υπηρεσίες της συνομιλίας - ελέγξτε τα διαπιστευτήρια του χρήστη που παρείχατε",
+    "userNotInChatThread": "Δεν βρίσκεστε πλέον σε αυτήν την συνομιλία",
+    "sendMessageNotInChatThread": "Αποτυχία αποστολής μηνύματος επειδή δεν βρίσκεστε πλέον σε αυτήν την συνομιλία",
+    "sendMessageGeneric": "Αποτυχία αποστολής μηνύματος",
+    "callingNetworkFailure": "Δυσκολία σύνδεσης κλήσης - φαίνεται ότι είστε εκτός σύνδεσης",
+    "startVideoGeneric": "Αποτυχία έναρξης βίντεο",
+    "stopVideoGeneric": "Αποτυχία διακοπής βίντεο",
+    "muteGeneric": "Αποτυχία σίγασης μικροφώνου",
+    "unmuteGeneric": "Αποτυχία κατάργησης σίγασης μικροφώνου",
+    "speakingWhileMuted": "To μικρόφωνό σας είναι σε σίγαση",
+    "startScreenShareGeneric": "Υπήρξε πρόβλημα με την έναρξη του κοινής χρήσης οθόνης.",
+    "stopScreenShareGeneric": "Αποτυχία διακοπής κοινής χρήσης οθόνης",
+    "callNetworkQualityLow": "Η ποιότητα του δικτύου είναι χαμηλή.",
+    "callNoSpeakerFound": "Δεν βρέθηκαν ηχεία ή ακουστικά. Συνδέστε μια συσκευή ήχου για να ακούσετε την κλήση.",
+    "callNoMicrophoneFound": "Δεν βρέθηκαν μικρόφωνα. Συνδέστε μια συσκευή εισόδου ήχου.",
+    "callMicrophoneAccessDenied": "Αδυναμία πρόσβασης στο μικρόφωνο. Χορηγείστε άδεια σε αυτή την ιστοσελίδα από τον φυλλομετρητή σας",
+    "callMicrophoneAccessDeniedSafari": "Αδυναμία πρόσβασης στο μικρόφωνο. Ανανεώστε τη σελίδα για να επιτρέψετε τις άδειες ή ελέγξτε τις ρυθμίσεις αυτού του προγράμματος περιήγησης και επιβεβαιώστε ότι οι άδειες είναι ενεργοποιημένες για αυτόν τον ιστότοπο.",
+    "callMicrophoneMutedBySystem": "Έχετε σιγεί από το σύστημά σας.",
+    "callMicrophoneUnmutedBySystem": "Το μικρόφωνό σας επανήλθε και ενεργοποιήθηκε από το σύστημά σας.",
+    "callMacOsMicrophoneAccessDenied": "Αδυναμία πρόσβασης στο μικρόφωνο. Χορηγήστε άδεια για το μικρόφωνο στις ρυθμίσεις απορρήτου του macOS σας.",
+    "callLocalVideoFreeze": "Το εύρος ζώνης του δικτύου είναι ανεπαρκές. Το βίντεο σας ενδέχεται να φαίνεται παγωμένο για τους άλλους συμμετέχοντες στην κλήση.",
+    "callCameraAccessDenied": "Αδυναμία πρόσβασης στην κάμερα. Χορηγείστε άδεια σε αυτή την ιστοσελίδα από τον φυλλομετρητή σας",
+    "callCameraAccessDeniedSafari": "Αδυναμία πρόσβασης στην κάμερα. Ανανεώστε τη σελίδα για να επιτρέψετε τις άδειες ή ελέγξτε τις ρυθμίσεις αυτού του προγράμματος περιήγησης και επιβεβαιώστε ότι οι άδειες είναι ενεργοποιημένες για αυτόν τον ιστότοπο.",
+    "callCameraAlreadyInUse": "Αδυναμία πρόσβασης στην κάμερα. Ενδέχεται να χρησιμοποιείται ήδη από άλλη εφαρμογή.",
+    "callVideoStoppedBySystem": "Το βίντεό σας έχει διακοπεί από το σύστημά σας.",
+    "callVideoRecoveredBySystem": "Το βίντεό σας έχει επανέλθει.",
+    "callMacOsCameraAccessDenied": "Το macOS αποκλείει την πρόσβαση στην κάμερά σας. Ενημερώστε τις ρυθμίσεις απορρήτου σας στο macOS για να επιτρέψετε σε αυτόν τον προγραμματισμό να έχει πρόσβαση στην κάμερά σας.",
+    "callMacOsScreenShareAccessDenied": "Το macOS αποκλείει την κοινή χρήση οθόνης. Ενημερώστε τις ρυθμίσεις απορρήτου σας στο macOS για να επιτρέψετε σε αυτόν τον προγραμματισμό να καταγράφει την οθόνη σας.",
+    "dismissButtonAriaLabel": "Κλείσιμο",
+    "failedToJoinCallGeneric": "Αποτυχία σύνδεσης στην κλήση.",
+    "failedToJoinCallInvalidMeetingLink": "Αδυναμία σύνδεσης στη συνάντηση. Μη έγκυρος σύνδεσμος.",
+    "cameraFrozenForRemoteParticipants": "Οι χρήστες στην κλήση αντιμετωπίζουν προβλήματα στην προβολή του βίντεό σας. Ελέγξτε τις συσκευές και το δίκτυό σας",
+    "unableToStartVideoEffect": "Αδυναμία εφαρμογής εφέ βίντεο."
+  },
+  "videoGallery": {
+    "screenIsBeingSharedMessage": "Κάνετε κοινή χρήση της οθόνης σας",
+    "screenShareLoadingMessage": "Φόρτωση της οθόνης του/της {participant}",
+    "localVideoLabel": "Εσείς",
+    "localVideoCameraSwitcherLabel": "Εναλλαγή κάμερας",
+    "localVideoMovementLabel": "Κινητή κεραία τοπικού βίντεο",
+    "localVideoSelectedDescription": "Επιλέχθηκε {cameraName}",
+    "displayNamePlaceholder": "Ανώνυμος συμμετέχων",
+    "fitRemoteParticipantToFrame": "Προσαρμογή στο πλαίσιο",
+    "fillRemoteParticipantFrame": "Γέμισμα πλαισίου",
+    "pinParticipantForMe": "Καρφίτσωμα για εμένα",
+    "pinParticipantForMeLimitReached": "Καρφίτσωμα (έχει εξαντληθεί το όριο)",
+    "unpinParticipantForMe": "Κατάργηση καρφίτσωματος",
+    "pinParticipantMenuItemAriaLabel": "Καρφίτσωμα του/της {participantName}",
+    "unpinParticipantMenuItemAriaLabel": "Κατάργηση καρφίτσωματος του/της {participantName}",
+    "pinnedParticipantAnnouncementAriaLabel": "Καρφιτσωμένος/η {participantName}",
+    "unpinnedParticipantAnnouncementAriaLabel": "Καταργήθηκε το καρφίτσωμα του/της {participantName}"
+  },
+  "dialpad": {
+    "placeholderText": "Εισαγάγετε τον αριθμό τηλεφώνου",
+    "deleteButtonAriaLabel": "Διαγραφή"
+  },
+  "holdButton": {
+    "onLabel": "Συνέχεια",
+    "offLabel": "Σε αναμονή",
+    "tooltipOnContent": "Συνέχεια κλήσης",
+    "tooltipOffContent": "Αναμονή κλήσης"
+  },
+  "videoTile": {
+    "participantStateRinging": "Κλήση...",
+    "participantStateHold": "Σε αναμονή"
+  },
+  "CameraAndMicrophoneSitePermissionsRequest": {
+    "primaryText": "Να επιτραπεί στην εφαρμογή {appName} να χρησιμοποιήσει την κάμερα και το μικρόφωνό σας",
+    "secondaryText": "Επιτρέψτε την πρόσβαση για να μπορούν να σας δουν και να σας ακούν οι συμμετέχοντες.",
+    "linkText": "Χρειάζεστε βοήθεια; Λάβετε βοήθεια για την επίλυση προβλημάτων",
+    "primaryButtonText": "Συνέχεια χωρίς κάμερα και μικρόφωνο",
+    "ariaLabel": "Να επιτραπεί η πρόσβαση στην κάμερα και το μικρόφωνο"
+  },
+  "CameraSitePermissionsRequest": {
+    "primaryText": "Να επιτραπεί στην εφαρμογή {appName} να χρησιμοποιήσει την κάμερά σας",
+    "secondaryText": "Επιτρέψτε την πρόσβαση για να μπορούν να σας δουν οι συμμετέχοντες.",
+    "linkText": "Χρειάζεστε βοήθεια; Λάβετε βοήθεια για την επίλυση προβλημάτων",
+    "primaryButtonText": "Συνέχεια χωρίς κάμερα",
+    "ariaLabel": "Να επιτραπεί η πρόσβαση στην κάμερα"
+  },
+  "MicrophoneSitePermissionsRequest": {
+    "primaryText": "Να επιτραπεί στην εφαρμογή {appName} να χρησιμοποιήσει το μικρόφωνό σας",
+    "secondaryText": "Επιτρέψτε την πρόσβαση για να μπορούν να σας ακούν οι συμμετέχοντες.",
+    "linkText": "Χρειάζεστε βοήθεια; Λάβετε βοήθεια για την επίλυση προβλημάτων",
+    "primaryButtonText": "Συνέχεια χωρίς μικρόφωνο",
+    "ariaLabel": "Να επιτραπεί η πρόσβαση στο μικρόφωνο"
+  },
+  "CameraAndMicrophoneSitePermissionsCheck": {
+    "primaryText": "Έλεγχος για πρόσβαση στην κάμερα και το μικρόφωνο",
+    "secondaryText": "Επιτρέψτε την πρόσβαση εάν σας ζητηθεί. Αυτό είναι απαραίτητο για να μπορούν οι συμμετέχοντες να σας δουν και να σας ακούν.",
+    "linkText": "Χρειάζεστε βοήθεια; Λάβετε βοήθεια για την επίλυση προβλημάτων",
+    "primaryButtonText": "Συνέχεια χωρίς κάμερα και μικρόφωνο",
+    "ariaLabel": "Έλεγχος για πρόσβαση στην κάμερα και το μικρόφωνο. Επιτρέψτε την πρόσβαση εάν σας ζητηθεί."
+  },
+  "CameraSitePermissionsCheck": {
+    "primaryText": "Έλεγχος για πρόσβαση στην κάμερα",
+    "secondaryText": "Επιτρέψτε την πρόσβαση εάν σας ζητηθεί. Αυτό είναι απαραίτητο για να μπορούν οι συμμετέχοντες να σας δουν.",
+    "linkText": "Χρειάζεστε βοήθεια; Λάβετε βοήθεια για την επίλυση προβλημάτων",
+    "primaryButtonText": "Συνέχεια χωρίς κάμερα",
+    "ariaLabel": "Έλεγχος για πρόσβαση στην κάμερα. Επιτρέψτε την πρόσβαση εάν σας ζητηθεί."
+  },
+  "MicrophoneSitePermissionsCheck": {
+    "primaryText": "Έλεγχος για πρόσβαση στο μικρόφωνο",
+    "secondaryText": "Επιτρέψτε την πρόσβαση εάν σας ζητηθεί. Αυτό είναι απαραίτητο για να μπορούν οι συμμετέχοντες να σας ακούν.",
+    "linkText": "Χρειάζεστε βοήθεια; Λάβετε βοήθεια για την επίλυση προβλημάτων",
+    "primaryButtonText": "Συνέχεια χωρίς μικρόφωνο",
+    "ariaLabel": "Έλεγχος για πρόσβαση στο μικρόφωνο. Επιτρέψτε την πρόσβαση εάν σας ζητηθεί."
+  },
+  "CameraAndMicrophoneSitePermissionsDenied": {
+    "primaryText": "Αδυναμία πρόσβασης στην κάμερα και το μικρόφωνο",
+    "secondaryText": "Κάντε κλικ στο εικονίδιο κλειδώματος στη γραμμή διεύθυνσης για να χορηγήσετε άδεια για το μικρόφωνο σε αυτήν την ιστοσελίδα. Μπορεί να χρειαστεί ανανέωση της σελίδας.",
+    "primaryButtonText": "Συνέχεια χωρίς κάμερα και μικρόφωνο",
+    "linkText": "Χρειάζεστε βοήθεια; Λάβετε βοήθεια για την επίλυση προβλημάτων"
+  },
+  "CameraAndMicrophoneSitePermissionsDeniedSafari": {
+    "primaryText": "Αδυναμία πρόσβασης στην κάμερα και το μικρόφωνο",
+    "secondaryText": "Ανανεώστε τη σελίδα για να επιτρέψετε τις άδειες ή ελέγξτε τις ρυθμίσεις αυτού του προγράμματος περιήγησης και βεβαιωθείτε ότι οι άδειες είναι ενεργοποιημένες για αυτόν τον ιστότοπο.",
+    "primaryButtonText": "Συνέχεια χωρίς κάμερα και μικρόφωνο",
+    "linkText": "Χρειάζεστε βοήθεια; Λάβετε βοήθεια για την επίλυση προβλημάτων"
+  },
+  "CameraSitePermissionsDenied": {
+    "primaryText": "Αδυναμία πρόσβασης στην κάμερα",
+    "secondaryText": "Κάντε κλικ στο εικονίδιο κλειδώματος στη γραμμή διεύθυνσης για να χορηγήσετε άδεια για την κάμερα σε αυτήν την ιστοσελίδα. Μπορεί να χρειαστεί ανανέωση της σελίδας.",
+    "primaryButtonText": "Συνέχεια χωρίς κάμερα",
+    "linkText": "Χρειάζεστε βοήθεια; Λάβετε βοήθεια για την επίλυση προβλημάτων"
+  },
+  "MicrophoneSitePermissionsDenied": {
+    "primaryText": "Αδυναμία πρόσβασης στο μικρόφωνο",
+    "secondaryText": "Κάντε κλικ στο εικονίδιο κλειδώματος στη γραμμή διεύθυνσης για να χορηγήσετε άδεια για το μικρόφωνο σε αυτήν την ιστοσελίδα. Μπορεί να χρειαστεί ανανέωση της σελίδας.",
+    "primaryButtonText": "Συνέχεια χωρίς μικρόφωνο",
+    "linkText": "Χρειάζεστε βοήθεια; Λάβετε βοήθεια για την επίλυση προβλημάτων"
+  },
+  "CameraSitePermissionsDeniedSafari": {
+    "primaryText": "Αδυναμία πρόσβασης στην κάμερα",
+    "secondaryText": "Ανανεώστε τη σελίδα για να επιτρέψετε τις άδειες ή ελέγξτε τις ρυθμίσεις αυτού του προγράμματος περιήγησης και βεβαιωθείτε ότι οι άδειες είναι ενεργοποιημένες για αυτόν τον ιστότοπο.",
+    "primaryButtonText": "Συνέχεια χωρίς κάμερα",
+    "linkText": "Χρειάζεστε βοήθεια; Λάβετε βοήθεια για την επίλυση προβλημάτων"
+  },
+  "MicrophoneSitePermissionsDeniedSafari": {
+    "primaryText": "Αδυναμία πρόσβασης στο μικρόφωνο",
+    "secondaryText": "Ανανεώστε τη σελίδα για να επιτρέψετε τις άδειες ή ελέγξτε τις ρυθμίσεις αυτού του προγράμματος περιήγησης και βεβαιωθείτε ότι οι άδειες είναι ενεργοποιημένες για αυτόν τον ιστότοπο.",
+    "primaryButtonText": "Συνέχεια χωρίς μικρόφωνο",
+    "linkText": "Χρειάζεστε βοήθεια; Λάβετε βοήθεια για την επίλυση προβλημάτων"
+  },
+  "UnsupportedBrowser": {
+    "primaryText": "Ο περιηγητής δεν υποστηρίζεται",
+    "secondaryText": "Παρακαλούμε συμμετάσχετε σε αυτήν την κλήση χρησιμοποιώντας έναν συμβατό περιηγητή.",
+    "moreHelpLinkText": "Δείτε τις απαιτήσεις συμβατότητας"
+  },
+  "UnsupportedBrowserVersion": {
+    "primaryText": "Απαιτείται ενημέρωση του περιηγητή",
+    "secondaryText": "Για να εξασφαλίσετε την καλύτερη δυνατή κλήση, παρακαλούμε ενημερώστε τον περιηγητή σας και στη συνέχεια δοκιμάστε να συμμετάσχετε στην κλήση ξανά.",
+    "moreHelpLinkText": "Δείτε τις απαιτήσεις συμβατότητας",
+    "continueAnywayButtonText": "Ξεκινήστε την κλήση χωρίς ενημέρωση"
+  },
+  "UnsupportedOperatingSystem": {
+    "primaryText": "Το λειτουργικό σύστημα δεν υποστηρίζεται",
+    "secondaryText": "Παρακαλούμε συμμετάσχετε σε αυτήν την κλήση χρησιμοποιώντας συσκευή με συμβατό λειτουργικό σύστημα.",
+    "moreHelpLinkText": "Δείτε τις απαιτήσεις συμβατότητας"
+  },
+  "BrowserPermissionDenied": {
+    "primaryText": "Δεν μπορείτε να χρησιμοποιήσετε την κάμερά σας ή το μικρόφωνό σας",
+    "secondaryText": "Ο περιηγητής σας ενδέχεται να μην έχει πρόσβαση στην κάμερα ή το μικρόφωνό σας. Ανοίξτε τις Ρυθμίσεις του Συστήματος, για να το διορθώσετε.",
+    "primaryButtonText": "Δοκιμάστε ξανά",
+    "linkText": "Χρειάζεστε βοήθεια; Λάβετε βοήθεια για την επίλυση προβλημάτων"
+  },
+  "BrowserPermissionDeniedIOS": {
+    "primaryText": "Να επιτραπεί η πρόσβαση στο μικρόφωνο για να συνεχίσετε",
+    "secondaryText": "Ωστε οι άλλοι συμμετέχοντες να μπορούν να σας ακούσουν.",
+    "primaryButtonText": "Δοκιμάστε ξανά",
+    "imageAltText": "Τοποθεσία άδειας συσκευής μικροφώνου και κάμερας για iOS",
+    "linkText": "Χρειάζεστε βοήθεια; Λάβετε βοήθεια για την επίλυση προβλημάτων",
+    "step1Text": "Μεταβείτε στιε Ρυθμίσεις",
+    "step2Text": "Κύλιση προς τις ρυθμίσεις για αυτόν τον περιηγητή",
+    "step3Text": "Ενεργοποιήστε το μικρόφωνο (προαιρετικά και την κάμερα)",
+    "step4Text": "Δοκιμάστε να συμμετάσχετε στην κλήση ξανά",
+    "step1DigitText": "1",
+    "step2DigitText": "2",
+    "step3DigitText": "3",
+    "step4DigitText": "4"
+  },
+  "VerticalGallery": {
+    "leftNavButtonAriaLabel": "επόμενη σελίδα",
+    "rightNavButtonAriaLabel": "προηγούμενη σελίδα"
+  }
+}

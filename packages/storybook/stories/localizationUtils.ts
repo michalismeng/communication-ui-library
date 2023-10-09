@@ -7,6 +7,7 @@ import {
   CompositeLocale,
   COMPOSITE_LOCALE_EN_US,
   COMPOSITE_LOCALE_EN_GB,
+  COMPOSITE_LOCALE_EL_GR,
   COMPOSITE_LOCALE_AR_SA,
   COMPOSITE_LOCALE_CS_CZ,
   COMPOSITE_LOCALE_DE_DE,
@@ -42,6 +43,7 @@ export const compositeLocale = (locale: string): CompositeLocale | undefined => 
 const compositeLocales = {
   en_US: COMPOSITE_LOCALE_EN_US,
   en_GB: COMPOSITE_LOCALE_EN_GB,
+  el_GR: COMPOSITE_LOCALE_EL_GR,
   ar_SA: COMPOSITE_LOCALE_AR_SA,
   cs_CZ: COMPOSITE_LOCALE_CS_CZ,
   de_DE: COMPOSITE_LOCALE_DE_DE,

@@ -11,6 +11,7 @@ import {
   COMPONENT_LOCALE_ES_ES,
   COMPONENT_LOCALE_FI_FI,
   COMPONENT_LOCALE_FR_FR,
+  COMPONENT_LOCALE_EL_GR,
   COMPONENT_LOCALE_HE_IL,
   COMPONENT_LOCALE_IT_IT,
   COMPONENT_LOCALE_JA_JP,
@@ -31,6 +32,10 @@ export const LOCALES: Record<string, { locale: ComponentLocale; englishName: str
   en_US: {
     locale: COMPONENT_LOCALE_EN_US,
     englishName: 'English (US)'
+  },
+  el_GR: {
+    locale: COMPONENT_LOCALE_EL_GR,
+    englishName: 'Greek (Greece)'
   },
   en_GB: {
     locale: COMPONENT_LOCALE_EN_GB,
