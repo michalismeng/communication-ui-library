@@ -571,6 +571,9 @@ export const COMPONENT_LOCALE_CS_CZ: ComponentLocale;
 export const COMPONENT_LOCALE_DE_DE: ComponentLocale;
 
 // @public
+export const COMPONENT_LOCALE_EL_GR: ComponentLocale;
+
+// @public
 export const COMPONENT_LOCALE_EN_GB: ComponentLocale;
 
 // @public

@@ -1063,6 +1063,9 @@ export const COMPOSITE_LOCALE_CS_CZ: CompositeLocale;
 export const COMPOSITE_LOCALE_DE_DE: CompositeLocale;
 
 // @public
+export const COMPOSITE_LOCALE_EL_GR: CompositeLocale;
+
+// @public
 export const COMPOSITE_LOCALE_EN_GB: CompositeLocale;
 
 // @public
