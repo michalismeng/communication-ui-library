@@ -4,7 +4,7 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
 import { AzureCommunicationTokenCredential } from '@azure/communication-common';
-import { ChatComposite, createAzureCommunicationChatAdapter } from '@azure/communication-react';
+import { ChatComposite, createAzureCommunicationChatAdapter, COMPOSITE_LOCALE_EL_GR } from '@azure/communication-react';
 import { initializeIcons } from '@fluentui/react';
 initializeIcons();
 export const loadChatComposite = async function (args, htmlElement, props) {
@@ -21,6 +21,8 @@ export const loadChatComposite = async function (args, htmlElement, props) {
     throw new Error('Failed to find the root element');
   }
 
-  createRoot(htmlElement).render(React.createElement(ChatComposite, { ...props, adapter }, null));
+  createRoot(htmlElement).render(
+    React.createElement(ChatComposite, { ...props, adapter, locale: COMPOSITE_LOCALE_EL_GR }, null)
+  );
   return adapter;
 };

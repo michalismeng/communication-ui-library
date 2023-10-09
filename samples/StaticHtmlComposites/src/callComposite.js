@@ -4,7 +4,8 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
 import { AzureCommunicationTokenCredential } from '@azure/communication-common';
-import { CallComposite, createAzureCommunicationCallAdapter } from '@azure/communication-react';
+import { CallComposite, createAzureCommunicationCallAdapter, COMPOSITE_LOCALE_EL_GR } from '@azure/communication-react';
+
 import { initializeIcons } from '@fluentui/react';
 initializeIcons();
 export const loadCallComposite = async function (args, htmlElement, props) {
@@ -20,6 +21,8 @@ export const loadCallComposite = async function (args, htmlElement, props) {
     throw new Error('Failed to find the root element');
   }
 
-  createRoot(htmlElement).render(React.createElement(CallComposite, { ...props, adapter }, null));
+  createRoot(htmlElement).render(
+    React.createElement(CallComposite, { ...props, adapter, locale: COMPOSITE_LOCALE_EL_GR }, null)
+  );
   return adapter;
 };

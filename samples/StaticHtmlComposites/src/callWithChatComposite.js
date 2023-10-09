@@ -4,7 +4,11 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
 import { AzureCommunicationTokenCredential } from '@azure/communication-common';
-import { CallWithChatComposite, createAzureCommunicationCallWithChatAdapter } from '@azure/communication-react';
+import {
+  CallWithChatComposite,
+  createAzureCommunicationCallWithChatAdapter,
+  COMPOSITE_LOCALE_EL_GR
+} from '@azure/communication-react';
 import { initializeIcons } from '@fluentui/react';
 initializeIcons();
 // locator is a different type of custom locator to aggregate a call locator and a chat thread
@@ -23,6 +27,8 @@ export const loadCallWithChatComposite = async function (args, htmlElement, prop
     throw new Error('Failed to find the root element');
   }
 
-  createRoot(htmlElement).render(React.createElement(CallWithChatComposite, { ...props, adapter }, null));
+  createRoot(htmlElement).render(
+    React.createElement(CallWithChatComposite, { ...props, adapter, locale: COMPOSITE_LOCALE_EL_GR }, null)
+  );
   return adapter;
 };
